@@ -13,10 +13,10 @@ const countDisLike1 = document.getElementById("countDisLike1")
 
 function countDisLike1() {
   let likeCounts = parseInt(countDisLike1.value) + 1
-  countDisLike1.textContent = countdislikes.toString()
+  countDisLike1.textContent = countDisLikes.toString()
 }
 
-btnLike1.addEventListener("click", countDisLike1)
+btnDisLike1.addEventListener("click", countDisLike1)
 
 
 const btnLike2 = document.getElementById("btnLike2")
@@ -36,10 +36,10 @@ const countDisLike2 = document.getElementById("countDisLike2")
 function countDisLike2() {
   let likeCounts = parseInt(countDisLike2
                             .value) + 1
-  countDisLike2.textContent = countdislikes.toString()
+  countDisLike2.textContent = countDisLikes.toString()
 }
 
-btnLike2.addEventListener("click", countDisLike2)
+btnDisLike2.addEventListener("click", countDisLike2)
 
 const submit = document.getElementById("submit")
 const comment = document.getElementById("comment")

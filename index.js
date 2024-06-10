@@ -43,7 +43,7 @@ btnDisLike2.addEventListener("click", countDisLike2)
 
 const submit = document.getElementById("submit")
 const comment = document.getElementById("comment")
-const comment box = document.getElementById("commentbox")
+const commentbox = document.getElementById("commentbox")
 
 function submitComment(){
   commentbox.textcontent += comment.value.string()+ "\n"
